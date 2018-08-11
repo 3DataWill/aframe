@@ -18,6 +18,7 @@ registerComponent('laser-controls', {
     el.setAttribute('oculus-go-controls', {hand: data.hand});
     el.setAttribute('oculus-touch-controls', {hand: data.hand});
     el.setAttribute('vive-controls', {hand: data.hand});
+    el.setAttribute('vive-focus-controls', {hand: data.hand});
     el.setAttribute('windows-motion-controls', {hand: data.hand});
 
     // Wait for controller to connect, or have a valid pointing pose, before creating ray

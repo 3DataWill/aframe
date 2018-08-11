@@ -25,6 +25,7 @@ require('./text');
 require('./tracked-controls');
 require('./visible');
 require('./vive-controls');
+require('./vive-focus-controls');
 require('./wasd-controls');
 require('./windows-motion-controls');
 
